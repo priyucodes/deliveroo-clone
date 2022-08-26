@@ -9,7 +9,7 @@ const PreparingOrderScreen = () => {
   useEffect(() => {
     setTimeout(() => {
       navigation.navigate('Delivery');
-    }, 4000);
+    }, 5000);
   }, []);
   return (
     <SafeAreaView className="flex-1 bg-[#00ccbb] justify-center items-center">
@@ -27,7 +27,7 @@ const PreparingOrderScreen = () => {
         Waitinf for Restaurant to accept your order!
       </Animatable.Text>
 
-      <Progress.Circle size={60} indeterminate={true} color="#fff" />
+      <Progress.Circle size={60} indeterminate={true} color="white" />
     </SafeAreaView>
   );
 };
