@@ -37,6 +37,8 @@ const DeliveryScreen = () => {
           </Text>
         </View>
       </SafeAreaView>
+
+      
     </View>
   );
 };
